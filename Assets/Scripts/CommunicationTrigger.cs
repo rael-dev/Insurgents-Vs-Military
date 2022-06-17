@@ -41,16 +41,16 @@ public class CommunicationTrigger : MonoBehaviour
 
 
 	/// <summary>
-	/// Checks the count of terrorists and plays clips based upon it.
+	/// Checks the count of insurgents and plays clips based upon it.
 	/// </summary>
 	void CheckCount()
 	{
 		if (nearVictory)
 		{
-			if (behaviourMngr.terroristCount == 10) 
+			if (behaviourMngr.insurgentCount == 3) 
 			{
 				gameObject.GetComponent<AudioSource> ().PlayOneShot (nearVictoryCall);
-				behaviourMngr.autoSpawnTerrorist = true;
+				behaviourMngr.autoSpawnInsurgent = false;
 				reinforcementCall = true;
 				nearVictory = false;
 			}
@@ -58,7 +58,7 @@ public class CommunicationTrigger : MonoBehaviour
 
 		if (reinforcementCall) 
 		{
-			if (behaviourMngr.terroristCount >= 15) 
+			if (behaviourMngr.insurgentCount >= 15) 
 			{
 				gameObject.GetComponent<AudioSource> ().PlayOneShot (reinforcements);
 				reinforcementCall = false;
@@ -69,7 +69,7 @@ public class CommunicationTrigger : MonoBehaviour
 
 		if (respond) 
 		{
-			if (behaviourMngr.terroristCount == 17) 
+			if (behaviourMngr.insurgentCount == 17) 
 			{
 				behaviourMngr.autoSpawnSoldier = true;
 				gameObject.GetComponent<AudioSource> ().PlayOneShot (reinforcementsResponse);
@@ -79,9 +79,9 @@ public class CommunicationTrigger : MonoBehaviour
 
 		if (victoryPlay) 
 		{
-			if (behaviourMngr.terroristCount == 0) 
+			if (behaviourMngr.insurgentCount == 0) 
 			{
-				behaviourMngr.autoSpawnTerrorist = false;
+				behaviourMngr.autoSpawnInsurgent = false;
 				behaviourMngr.autoSpawnSoldier = false;
 				gameObject.GetComponent<AudioSource> ().PlayOneShot (victory);
 				victoryPlay = false;

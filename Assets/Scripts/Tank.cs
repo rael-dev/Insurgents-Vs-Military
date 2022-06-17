@@ -11,7 +11,7 @@ using System.Collections.Generic;
 public class Tank : MovementForces 
 {
 	public List<GameObject> waypointList;
-	private float pathRadius = 10.0f;
+	//private float pathRadius = 10.0f;
 	private int closestIndex;
 	private GameObject segmentEnd;
 

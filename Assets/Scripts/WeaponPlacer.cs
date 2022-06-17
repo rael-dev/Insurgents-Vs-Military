@@ -4,12 +4,12 @@ using System.Collections.Generic;
 
 /*
  * Author: Israel Anthony
- * Purpose: Places weapons in the position of the soldiers'/terrorists' hands.
+ * Purpose: Places weapons in the position of the soldiers'/insurgents' hands.
  * Caveats: None
  */ 
 public class WeaponPlacer : MonoBehaviour 
 {
-	public List<GameObject> terroristWeapons;
+	public List<GameObject> insurgentWeapons;
 	public List<GameObject> militaryWeapons;
 	private GameObject weapon;
 
@@ -23,7 +23,7 @@ public class WeaponPlacer : MonoBehaviour
 		} 
 		else 
 		{
-			weapon = Instantiate(terroristWeapons[0]);
+			weapon = Instantiate(insurgentWeapons[0]);
 		}
 	}
 	

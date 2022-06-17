@@ -1,0 +1,355 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.0f1 (6eacc8284459) revision 7253192'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16325 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\2021.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Game Projects/Unity Projects/Terrorist-Vs-Military
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+52785
+Successfully changed project path to: D:/Game Projects/Unity Projects/Terrorist-Vs-Military
+D:/Game Projects/Unity Projects/Terrorist-Vs-Military
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 285.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.0f1 (6eacc8284459)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Game Projects/Unity Projects/Terrorist-Vs-Military/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 Ti (ID=0x1b82)
+    Vendor:   NVIDIA
+    VRAM:     8079 MB
+    Driver:   31.0.15.1640
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/2021.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.038032 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 81.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.775 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1776ms)
+		BeginReloadAssembly (1019ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (570ms)
+			LoadAssemblies (1014ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (125ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008920 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.501 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1501ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1239ms)
+			LoadAssemblies (523ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (161ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (492ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (159ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.32 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2242 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (57.0 KB). Loaded Objects now: 2707.
+Memory consumption went from 101.0 MB to 101.0 MB.
+Total: 6.626900 ms (FindLiveObjects: 0.182300 ms CreateObjectMapping: 0.116300 ms MarkObjects: 6.255200 ms  DeleteObjects: 0.072300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 328093.864673 seconds.
+  path: Assets/Materials/Purple.mat
+  artifactKey: Guid(169febd9b01ccea4ba318fa978606aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Purple.mat using Guid(169febd9b01ccea4ba318fa978606aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6809b94e1ece39d4cb56bdf38fd23f21') in 1.141302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.996261 seconds.
+  path: Assets/SimpleMilitary/Textures/Apartment_Damaged_c.png
+  artifactKey: Guid(09ee751e3257c204b84da515b94899e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/Apartment_Damaged_c.png using Guid(09ee751e3257c204b84da515b94899e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0799fa9715e293c5ed1ca5e9ef924f6e') in 0.130825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SimpleMilitary/Textures/Armor_Car_a.png
+  artifactKey: Guid(27452c23fd873904babea7f75cb5ca5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/Armor_Car_a.png using Guid(27452c23fd873904babea7f75cb5ca5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a975e93bc249dbf45bffba3d32828810') in 0.118832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SimpleMilitary/Textures/Apc_01_b.png
+  artifactKey: Guid(91d95c56c024c6a429bff689f825f32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/Apc_01_b.png using Guid(91d95c56c024c6a429bff689f825f32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f59d74966c3c8b99ee1de9f6092373') in 0.072685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.498770 seconds.
+  path: Assets/SimpleMilitary/Textures/Army_Truck_b.png
+  artifactKey: Guid(18ddf65b1999cd648b65c2fbee2c3443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/Army_Truck_b.png using Guid(18ddf65b1999cd648b65c2fbee2c3443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365c55bf3ed7bd2c14c567cb1c6fc0f6') in 0.132799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.908548 seconds.
+  path: Assets/SimpleMilitary/Textures/Road_Barrier.png
+  artifactKey: Guid(668fd2d1e1129d74b91cc85ad78f8729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/Road_Barrier.png using Guid(668fd2d1e1129d74b91cc85ad78f8729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd529123b6de0576711f75c2735610ad') in 0.116257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.743112 seconds.
+  path: Assets/SimpleMilitary/Textures/Shop_Damaged_a.png
+  artifactKey: Guid(b5780ddcf5048624b9dbb0bad06f9b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/Shop_Damaged_a.png using Guid(b5780ddcf5048624b9dbb0bad06f9b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9bfff53e020f8abb71cf85f037340a') in 0.121241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.057253 seconds.
+  path: Assets/SimpleMilitary/Textures/Attack_Heli_b.png
+  artifactKey: Guid(173777f07788ef24eb1c2fbdb7f418e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/Attack_Heli_b.png using Guid(173777f07788ef24eb1c2fbdb7f418e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651cc77d6ea594c46dcf1ec8fd251f69') in 0.141003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SimpleMilitary/Textures/SimpleMilitary_GermanSoldier_White.png
+  artifactKey: Guid(658f76346d0ae7743ac3732bc4a873e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/SimpleMilitary_GermanSoldier_White.png using Guid(658f76346d0ae7743ac3732bc4a873e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e2d2621cf5eeb06cde52037d8e27c6') in 0.159558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SimpleMilitary/Textures/SimpleMilitary_General_Brown.png
+  artifactKey: Guid(232498a27cc77f64991e49d02fbdd271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/SimpleMilitary_General_Brown.png using Guid(232498a27cc77f64991e49d02fbdd271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5ce46b3641e96f42a50b0873f2b2a0') in 0.118132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SimpleMilitary/Textures/Fence_Alpha.png
+  artifactKey: Guid(9374810233f31ae4d9afaf7bc7c6dcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/Fence_Alpha.png using Guid(9374810233f31ae4d9afaf7bc7c6dcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd789a0cd72ef9db56ce59e3b672469de') in 0.041539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimpleMilitary/Textures/Office_Damaged_c.png
+  artifactKey: Guid(2692046dd57015e4280cadd13850031b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/Office_Damaged_c.png using Guid(2692046dd57015e4280cadd13850031b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56139f4e29edc3e3fe580cf6077c6da8') in 0.143245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SimpleMilitary/Textures/SimpleMilitary_Soldier_04_White.png
+  artifactKey: Guid(f8f758917eca0dc4e841f097cff61d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/SimpleMilitary_Soldier_04_White.png using Guid(f8f758917eca0dc4e841f097cff61d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55140f0d67f1805931fb87a7372b9d8') in 0.161298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SimpleMilitary/Textures/SimpleMilitary_Female_White.png
+  artifactKey: Guid(5300bb4b71994394d9413451bf575789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/SimpleMilitary_Female_White.png using Guid(5300bb4b71994394d9413451bf575789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604db7ade3640230b3787227e3372c15') in 0.070170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SimpleMilitary/Textures/SimpleMilitary_FemaleMedic_Brown.png
+  artifactKey: Guid(922cf4e949049324a9140dbbf1062ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/SimpleMilitary_FemaleMedic_Brown.png using Guid(922cf4e949049324a9140dbbf1062ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0f134cdf59facc68a2f5da12f935a2') in 0.104655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SimpleMilitary/Textures/Crate_Barrel_Box.png
+  artifactKey: Guid(22ee111f76853fc43bb6a9efa382b8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/Crate_Barrel_Box.png using Guid(22ee111f76853fc43bb6a9efa382b8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ae0b03ef423d33169dfe9888581548') in 0.166927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SimpleMilitary/Textures/SimpleMilitary_JungleCommando_White.png
+  artifactKey: Guid(2f37808afa7f279469ad2e061f803338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/SimpleMilitary_JungleCommando_White.png using Guid(2f37808afa7f279469ad2e061f803338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a8d3fdb8ac36c81b72230f69e54902') in 0.108016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SimpleMilitary/Textures/SimpleMilitary_General_Black.png
+  artifactKey: Guid(c0046c83b4d6963498f517c506503a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/SimpleMilitary_General_Black.png using Guid(c0046c83b4d6963498f517c506503a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b76960dc141f7be681029c3a6b3f66') in 0.094165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SimpleMilitary/Textures/SimpleMilitary_Pilot_Brown.png
+  artifactKey: Guid(f0096602c09191a43aa10fffedbeae63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/SimpleMilitary_Pilot_Brown.png using Guid(f0096602c09191a43aa10fffedbeae63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dd2a454b9e96399084c048bed40dfb') in 0.101721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SimpleMilitary/Textures/Office_Damaged_b.png
+  artifactKey: Guid(01ad80ca026f0e74b94d3f995e3779a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/Office_Damaged_b.png using Guid(01ad80ca026f0e74b94d3f995e3779a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed09269dcd8e4b2912e7455b863a4a3') in 0.101178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SimpleMilitary/Textures/SimpleMilitary_SpecialForces_02_Black.png
+  artifactKey: Guid(5f1c3daa8a3ff624da6b4f75ac63c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/SimpleMilitary_SpecialForces_02_Black.png using Guid(5f1c3daa8a3ff624da6b4f75ac63c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd5ff884d050cb592471b793be57ec5') in 0.097031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SimpleMilitary/Textures/GuardTower.png
+  artifactKey: Guid(69f4da405208d2145adcac44af5ae9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/GuardTower.png using Guid(69f4da405208d2145adcac44af5ae9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7e08f6b2fc6141e1eb8823f191824b') in 0.154474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SimpleMilitary/Textures/SimpleMilitary_JungleCommando_Brown.png
+  artifactKey: Guid(a930af6ef6d08384e9e8ced4644a021a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/SimpleMilitary_JungleCommando_Brown.png using Guid(a930af6ef6d08384e9e8ced4644a021a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600da115fa78829bb7d0524f3a32f418') in 0.149078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SimpleMilitary/Textures/SimpleMilitary_Soldier01_Black.png
+  artifactKey: Guid(8b8d23c46a7806e4c9c0c1de063e3c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/SimpleMilitary_Soldier01_Black.png using Guid(8b8d23c46a7806e4c9c0c1de063e3c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b23279d775bbd685804d915c1b9ccdc') in 0.124882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SimpleMilitary/Textures/Heli_Pad.png
+  artifactKey: Guid(60411629937180c469025c44361690b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/Heli_Pad.png using Guid(60411629937180c469025c44361690b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c8ee9cff2603c7a7ea159c014f8a10') in 0.124152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SimpleMilitary/Textures/SimpleMilitary_BombDisposal_Black.png
+  artifactKey: Guid(54ac042f404229442ae5599e9caf5a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/SimpleMilitary_BombDisposal_Black.png using Guid(54ac042f404229442ae5599e9caf5a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1746ac43c40ece8a5eb8de04c727b4da') in 0.124402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SimpleMilitary/Textures/SimpleMilitary_FemaleMedic_White.png
+  artifactKey: Guid(78e73ae49e7f0f140969ba8b24dbf62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleMilitary/Textures/SimpleMilitary_FemaleMedic_White.png using Guid(78e73ae49e7f0f140969ba8b24dbf62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dea31ec956ec709be4028a76d46ea2b') in 0.127366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.605358 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Textures/ParticleCloudWhite.png
+  artifactKey: Guid(5b303ff28ad9368468a2edd759cf458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Textures/ParticleCloudWhite.png using Guid(5b303ff28ad9368468a2edd759cf458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e50120794e76616991ce96e188c8b0') in 0.080928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Textures/ParticleCloudBlack.png
+  artifactKey: Guid(830884c18cf5e7a4895ee02c2dcd8e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Textures/ParticleCloudBlack.png using Guid(830884c18cf5e7a4895ee02c2dcd8e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a032ab946968738ed5fe63f43b0c39d') in 0.044132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.760329 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png
+  artifactKey: Guid(9d7c6e4896067aa4fa512a00f692ac1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png using Guid(9d7c6e4896067aa4fa512a00f692ac1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598ec2ead85c133066bc54587a147ecc') in 0.163193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.372676 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png
+  artifactKey: Guid(a3983c59ebf804b4abba687bd7c9e92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png using Guid(a3983c59ebf804b4abba687bd7c9e92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e327e5685e81e39d1347ef369f7a5c3') in 0.098608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png
+  artifactKey: Guid(827c9cd4a3943534f909ac6473e17288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png using Guid(827c9cd4a3943534f909ac6473e17288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0943e1553527337cbadb02ec179a2a') in 0.116697 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

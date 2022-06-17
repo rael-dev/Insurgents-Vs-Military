@@ -151,7 +151,7 @@ public class MovementForces : MonoBehaviour
 	protected Vector3 Pursue(Vector3 targetPosition)
 	{
 		// Calculate future position of the zombie that is pursuing
-		Vector3 targetFuturePos = targetPosition + target.GetComponent<Terrorist> ().velocity;
+		Vector3 targetFuturePos = targetPosition + target.GetComponent<Insurgent> ().velocity;
 
 		// Seek the future position of the zombie
 		Vector3 steeringForce = Seek(targetFuturePos);
@@ -278,7 +278,6 @@ public class MovementForces : MonoBehaviour
 				desiredVelocity *= maxSpeed;
 
 				Vector3 steeringForce = desiredVelocity - velocity;
-				steeringForce = steeringForce;
 				ApplyForce (steeringForce * 0.50f);
 			}
 		} 

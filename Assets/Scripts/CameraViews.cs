@@ -16,6 +16,8 @@ public class CameraViews : MonoBehaviour
 	// Current camera
 	private int currentCameraIndex;
 
+	public GameObject player;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -54,6 +56,16 @@ public class CameraViews : MonoBehaviour
 				cameras [currentCameraIndex - 1].gameObject.SetActive (false);
 				currentCameraIndex = 0;
 				cameras [currentCameraIndex].gameObject.SetActive (true);
+			}
+
+            // If camera is on FPS view, enable FPS controller
+            if (cameras[currentCameraIndex].gameObject.name.Equals("FPS View"))
+            {
+				player.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().enabled = true;
+            }
+			else
+            {
+				player.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().enabled = false;
 			}
 		}
 	}
